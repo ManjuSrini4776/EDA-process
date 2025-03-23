@@ -12,6 +12,8 @@ Visualizing distributions and correlations.
 Identifying key factors influencing passenger survival.
 
 Providing actionable insights for model preparation.
+
+
 🎯 Key Objectives
 Load and explore the Titanic Dataset.
 
@@ -22,6 +24,7 @@ Perform statistical and visual analysis to identify patterns.
 Identify correlations between passenger attributes and survival rate.
 
 Summarize key findings and insights for future model building.
+
 📝 Dataset Information
 Dataset Name: Titanic.csv
 
@@ -54,6 +57,7 @@ Fare – Ticket fare.
 Cabin – Cabin number.
 
 Embarked – Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+
 📊 EDA Process Overview
 The EDA process includes the following steps:
 
@@ -82,6 +86,7 @@ Plot bar charts, histograms, and box plots for key insights.
 Use heatmaps to observe correlations.
 
 Identify features with the highest influence on survival.
+
 📊 Key Insights and Findings
 Survival Rate by Gender:
 
@@ -106,6 +111,7 @@ Correlation Heatmap:
 Pclass, Fare, and Sex have the most correlation with survival.
 
 Fare has a positive correlation with survival.
+
 🛠️ Technologies Used
 Python 3.x
 
@@ -118,6 +124,7 @@ Matplotlib
 Seaborn
 
 Jupyter Notebook
+
 🔎 Data Preprocessing Steps
 Imputed missing values in Age and Embarked.
 
@@ -126,6 +133,7 @@ Dropped columns with too many missing values (Cabin).
 One-hot encoding applied for Sex and Embarked.
 
 Standardized numerical features for better analysis.
+
 📢 Future Improvements
 Apply feature engineering to improve model predictions.
 
